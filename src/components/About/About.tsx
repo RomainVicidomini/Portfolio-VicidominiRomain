@@ -7,7 +7,7 @@ import icones from '../../data/icones';
 function About() {
   const aboutRef = useRef(null);
   const aboutRef2 = useRef(null);
-  const [isClassToggled, setClassToggled] = useState(false);
+  const [isClassToggled, setClassToggled] = useState(true);
   const handleButtonCLick = () => {
     if (!isClassToggled && aboutRef.current) {
       scroller.scrollTo('about', {});
