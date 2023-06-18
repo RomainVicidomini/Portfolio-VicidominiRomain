@@ -10,10 +10,10 @@ function About() {
   const [isClassToggled, setClassToggled] = useState(false);
   const handleButtonCLick = () => {
     if (!isClassToggled && aboutRef.current) {
-      scroller.scrollTo('about');
+      scroller.scrollTo('about', {});
     }
     if (isClassToggled && aboutRef2.current) {
-      scroller.scrollTo('about-text');
+      scroller.scrollTo('about-text', {});
     }
     setClassToggled(!isClassToggled);
   };

@@ -1,18 +1,27 @@
 import './header.scss';
+import { useRef, useEffect } from 'react';
 import logo from '../../assets/menu.svg';
 
 function Header() {
-  window.onscroll = function posHeader() {
-    const currentScrollPos = window.pageYOffset;
+  const headerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const posHeader = () => {
+      const currentScrollPos = window.pageYOffset;
+      const headerElement = headerRef.current;
+      if (headerElement !== null) {
+        if (currentScrollPos < 100) {
+          headerElement.classList.remove('header__hidden');
+        } else {
+          headerElement.classList.add('header__hidden');
+        }
+      }
+    };
 
-    if (currentScrollPos < 100) {
-      document.querySelector('header').classList.remove('header__hidden');
-    } else {
-      document.querySelector('header').classList.add('header__hidden');
-    }
-  };
+    window.addEventListener('scroll', posHeader);
+  }, []);
+
   return (
-    <header className="header">
+    <header ref={headerRef} className="header">
       <div className="header__left">
         <button type="button">
           <img className="header__menu" src={logo} alt="Logo" />
