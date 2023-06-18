@@ -36,23 +36,29 @@ function Contact() {
             <h3>romain.vicidomini@gmail.com</h3>
           </div>
         </div>
-        <form className="contact__form">
+        <form
+          name="contact"
+          method="post"
+          className="contact__form"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <input
-            id="name"
+            name="name"
             className="contact__form-content-input"
             type="text"
             placeholder="Nom"
             required
           />
           <input
-            id="email"
+            name="email"
             className="contact__form-content-input"
             type="email"
             placeholder="email"
             required
           />
           <input
-            id="message"
+            name="message"
             className="contact__form-content-input-message"
             type="text"
             placeholder="Votre message"
