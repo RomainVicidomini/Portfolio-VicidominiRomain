@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+footer{
+  background-color: $color-bg-2;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  color: $color;
+  font-size: 1.2rem;
+  a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+.footer__fleche{
+  rotate: 180deg;
+  width: 35px;
+  height: 35px;
+}
