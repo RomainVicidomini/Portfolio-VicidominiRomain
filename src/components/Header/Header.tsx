@@ -10,12 +10,14 @@ function Header() {
     const posHeader = () => {
       const currentScrollPos = window.pageYOffset;
       const headerElement = headerRef.current;
+      const navBarElement = navBarRef.current;
 
       if (headerElement !== null) {
         if (currentScrollPos < 100) {
           headerElement.classList.remove('header__hidden');
         } else {
           headerElement.classList.add('header__hidden');
+          navBarElement?.classList.remove('active');
         }
       }
     };
@@ -43,10 +45,10 @@ function Header() {
   return (
     <header ref={headerRef} className="header">
       <div className="header__left">
+        <h1 className="header__title">Romain.V</h1>
         <button ref={btnMenuRef} type="button" onClick={menuOnClick}>
           <img className="header__menu" src={logo} alt="Logo" />
         </button>
-        <h1 className="header__title">Romain.V</h1>
       </div>
       <nav ref={navBarRef} className="header__link">
         <a href="#home" className="header__active">

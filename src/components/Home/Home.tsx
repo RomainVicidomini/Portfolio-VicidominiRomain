@@ -10,12 +10,8 @@ function Home() {
       <img className="img-background" src={fond} alt="background" />
       <div className="home">
         <div className="home__content">
-          <div className="home__name">
-            <h1>Romain Vicidomini</h1>
-          </div>
-          <div className="home__text-animate">
-            <h3 className="home__title-1">Développeur</h3>
-          </div>
+          <h1 className="home__name">Romain Vicidomini</h1>
+          <h3 className="home__title-1">Développeur</h3>
           <h3 className="home__title-3">
             Disponible à <span>Montreal</span> à partir du{' '}
             <span>18 septembre 2023</span>
@@ -32,14 +28,14 @@ function Home() {
           </a>
         </div>
         <div className="home__link">
-          <a href="https://www.linkedin.com/in/romain-vicidomini-390809135/">
+          <a href="https://github.com/RomainVicidomini/">
             <img
               className="home__linkimg"
               src={logoGithub}
               alt="lien vers Github"
             />
           </a>
-          <a href="https://github.com/RomainVicidomini/">
+          <a href="https://www.linkedin.com/in/romain-vicidomini-390809135/">
             <img
               className="home__linkimg"
               src={logoLinkedin}

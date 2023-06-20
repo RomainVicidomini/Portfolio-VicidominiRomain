@@ -84,6 +84,7 @@
     background-color: $color-bg-2;
     &__left{
       width: 100%;
+      justify-content: space-between;
     }
     &__menu{
       display: block;
