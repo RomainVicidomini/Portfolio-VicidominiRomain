@@ -165,28 +165,28 @@ function About() {
         >
           {isClassToggled ? 'En savoir plus' : 'Réduire'}
         </button>
-      </div>
-      <h2 className="about__title-2">
-        Développeur fullstack javascript - Spé <span>React</span>
-      </h2>
-      <div className="about__slider">
-        <div className="about__slide-track">
-          {icones.map((icon) => (
-            <img
-              className="about__slide-img"
-              key={icon.id}
-              src={`${icon.src}`}
-              alt={icon.alt}
-            />
-          ))}
-          {icones.map((icon) => (
-            <img
-              className="about__slide-img"
-              key={icon.id}
-              src={icon.src}
-              alt={icon.alt}
-            />
-          ))}
+        <h2 className="about__title-2">
+          Développeur fullstack javascript - Spé <span>React</span>
+        </h2>
+        <div className="about__slider">
+          <div className="about__slide-track">
+            {icones.map((icon) => (
+              <img
+                className="about__slide-img"
+                key={icon.id}
+                src={`${icon.src}`}
+                alt={icon.alt}
+              />
+            ))}
+            {icones.map((icon) => (
+              <img
+                className="about__slide-img"
+                key={icon.id}
+                src={icon.src}
+                alt={icon.alt}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
