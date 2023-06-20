@@ -193,3 +193,19 @@ position: absolute;
     }
   }
 }
+
+@media (max-width:425px){
+
+  .home {
+    padding: 1rem 2% 1rem 2%;
+
+    &__name{
+      font-size: 3.4rem;
+    }
+    &__title-1{
+      font-size: 1.2rem;
+      transform: translateX(5rem);
+      width: calc(100% - 5rem);
+    }
+  }
+}
