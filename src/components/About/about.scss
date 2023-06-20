@@ -191,8 +191,13 @@
   }
   &__cadreImg{
     top:11.5rem;
+    width: 25rem;
+    height: 25rem;
   }
-
+  &__img{
+    width: 20rem;
+    height: 20rem;
+  }
   &__text-2{
     text-align: justify;
     font-size: 1.4rem;
@@ -240,6 +245,19 @@
     padding: 0.6rem;
     height: 50px;
     margin-right: 2.5rem;
+  }
+  }
+}
+
+@media (max-width:425px){
+  .about{
+
+  &__img{
+    width: 20rem;
+    height: 20rem;
+  }
+  &__title-2{
+    font-size: 1.8rem;
   }
   }
 }
