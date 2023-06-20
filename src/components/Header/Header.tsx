@@ -4,10 +4,13 @@ import logo from '../../assets/menu.svg';
 
 function Header() {
   const headerRef = useRef<HTMLDivElement>(null);
+  const btnMenuRef = useRef<HTMLButtonElement>(null);
+  const navBarRef = useRef<HTMLElement>(null);
   useEffect(() => {
     const posHeader = () => {
       const currentScrollPos = window.pageYOffset;
       const headerElement = headerRef.current;
+
       if (headerElement !== null) {
         if (currentScrollPos < 100) {
           headerElement.classList.remove('header__hidden');
@@ -19,6 +22,10 @@ function Header() {
 
     window.addEventListener('scroll', posHeader);
   }, []);
+  const menuOnClick = () => {
+    const navBarElement = navBarRef.current;
+    navBarElement?.classList.toggle('active');
+  };
 
   const handleDownload = () => {
     fetch('CV_RomainVicidomini.pdf').then((response) => {
@@ -36,12 +43,12 @@ function Header() {
   return (
     <header ref={headerRef} className="header">
       <div className="header__left">
-        <button type="button">
+        <button ref={btnMenuRef} type="button" onClick={menuOnClick}>
           <img className="header__menu" src={logo} alt="Logo" />
         </button>
         <h1 className="header__title">Romain.V</h1>
       </div>
-      <nav className="header__link">
+      <nav ref={navBarRef} className="header__link">
         <a href="#home" className="header__active">
           Accueil
         </a>
