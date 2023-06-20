@@ -116,7 +116,6 @@ function About() {
           className="about__text-3 "
           style={{
             height: isClassToggled ? '0px' : '100%',
-            padding: isClassToggled ? '0 0 ' : '2rem 4rem',
           }}
         >
           <p>
