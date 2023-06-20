@@ -11,7 +11,7 @@ function Experience() {
       </h2>
       <div className="experience__row">
         <div className="experience__column">
-          <div className="experience__content-title">
+          <div className="experience__column-div-title">
             <img
               className="experience__logo-title"
               src={university}
@@ -113,7 +113,7 @@ function Experience() {
           </div>
         </div>
         <div className="experience__column">
-          <div className="experience__content-title">
+          <div className="experience__column-div-title">
             <img
               className="experience__logo-title"
               src={affaire}

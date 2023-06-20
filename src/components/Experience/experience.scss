@@ -64,6 +64,7 @@
     border-radius: 0.8rem;
     margin-bottom: 2rem;
     width: 100%;
+    font-size: 1.2rem;
     background-color: transparent;
     transition: all 0.5s;
     &:hover{
@@ -82,17 +83,17 @@
     height: 15px;
   }
   &__content-title{
-      font-size: 1.6rem;
-      font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 600;
 
   }
   &__content-subtitle{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 2rem;
 }
-&__content-title{
+&__column-div-title{
   display: flex;
   flex-direction: row;
   margin:0 0 1.5rem 5rem;
@@ -107,16 +108,53 @@ height: 30px;
 
 @media (max-width:1200px){
   .experience {
-    padding: 1rem 3% 0 3%;
+    padding: 3rem 5% 3rem 5%;
+    &__colum-title{
+      font-size: 2.2rem;
+    }
+    &__logo-title{
+      width: 25px;
+      height: 25px;
+      }
+    &__content-title{
+      font-size: 1.4rem;
+    }
   }
+
 }
 
 @media (max-width:768px){
 
   .experience {
-    padding: 1rem 2% 1rem 2%;
+    &__colum-title{
+      font-size: 2rem;
+    }
+    &__logo-title{
+      width: 20px;
+      height: 20px;
+      }
     &__column{
       width: 100%;
     }
+    &__titre{
+      font-size: 4rem;
+    }
+    &__content{
+      box-shadow: #BDC3C7 3px 3px 3px;
+      font-size: 1rem;
+    }
+    &__content-date{
+      font-size: 1rem;
+    }
+    &__content-title{
+    font-size: 1.4rem;
+    }
+    &__content-subtitle{
+      font-size: 1rem;
+  }
+  &__content-icone{
+    width: 12px;
+    height: 12px;
+  }
   }
 }
