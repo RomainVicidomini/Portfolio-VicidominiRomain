@@ -225,7 +225,6 @@
 
   &__slider{
 	  height: 50px;
-    margin-bottom: 3rem;
     &:before,
     &:after {
       @include white-gradient;

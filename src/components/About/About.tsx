@@ -119,43 +119,43 @@ function About() {
           }}
         >
           <p>
-            Jeune français avec cinq années d'expérience dans le domaine de
-            l'informatique industrielle et une formation approfondie en tant que
-            développeur fullstack JavaScript, je suis enthousiaste à l'idée de
-            mettre à profit mes compétences dans la construction de sites web et
-            web mobiles répondant aux attentes des clients.
+            Jeune français avec cinq années d&apos;expérience dans le domaine de
+            l&apos;informatique industrielle et une formation approfondie en
+            tant que développeur fullstack JavaScript, je suis enthousiaste à
+            l&apos;idée de mettre à profit mes compétences dans la construction
+            de sites web et web mobiles répondant aux attentes des clients.
           </p>
           <p>
             Actuellement, je suis sur le point de terminer ma formation de
             développement web Fullstack JavaScript, spécialisée en React au sein
-            de l'école O’clock. Cette formation m'a permis de consolider mes
-            connaissances en programmation et de maîtriser les outils et les
-            technologies essentiels pour la création d'applications web
-            dynamiques et réactives. J'ai développé une solide compréhension des
-            principes du développement front-end et back-end, ainsi que des
-            bonnes pratiques en matière de conception et d'optimisation des
-            sites web.
+            de l&apos;école O’clock. Cette formation m&apos;a permis de
+            consolider mes connaissances en programmation et de maîtriser les
+            outils et les technologies essentiels pour la création
+            d&apos;applications web dynamiques et réactives. J&apos;ai développé
+            une solide compréhension des principes du développement front-end et
+            back-end, ainsi que des bonnes pratiques en matière de conception et
+            d&apos;optimisation des sites web.
           </p>
           <p>
             Je suis convaincu que mon bagage technique et mes compétences en
             développement web me permettront de contribuer de manière
-            significative à votre équipe. Je suis à l'aise pour travailler avec
-            des frameworks tels que React et Node.js, ainsi qu'avec des
-            technologies front-end comme HTML5, CSS3 et JavaScript.
+            significative à votre équipe. Je suis à l&apos;aise pour travailler
+            avec des frameworks tels que React et Node.js, ainsi qu&apos;avec
+            des technologies front-end comme HTML5, CSS3 et JavaScript.
           </p>
           <p>
             De plus, je souhaite vous informer que je déménagerai au Québec le
             14 septembre 2023. Ayant déjà commencé à me renseigner sur le marché
-            de l'emploi local je suis vivement déterminé à m'intégrer rapidement
-            dans une nouvelle équipe et à apporter ma contribution à la
-            réalisation de projets web innovants et de qualité.
+            de l&apos;emploi local je suis vivement déterminé à m&apos;intégrer
+            rapidement dans une nouvelle équipe et à apporter ma contribution à
+            la réalisation de projets web innovants et de qualité.
           </p>
           <p>
             Je suis une personne proactive, passionnée par le développement web
-            et constamment à l'affût des dernières tendances et technologies du
-            secteur. Mon approche méthodique, ma capacité à travailler en équipe
-            et ma volonté d'apprendre en continu font de moi un candidat idéal
-            pour le poste de développeur web.
+            et constamment à l&apos;affût des dernières tendances et
+            technologies du secteur. Mon approche méthodique, ma capacité à
+            travailler en équipe et ma volonté d&apos;apprendre en continu font
+            de moi un candidat idéal pour le poste de développeur web.
           </p>
         </div>
         <button
