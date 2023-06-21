@@ -14,7 +14,6 @@ function Projects() {
               key={projet.id}
               className="projects__card-container"
               style={{
-                flex: projet.isEncours ? '3' : '1',
                 opacity: projet.isEncours ? '1' : '0.5',
               }}
             >
@@ -26,7 +25,7 @@ function Projects() {
                 }}
                 type="button"
               >
-                Découvrir
+                {projet.isEncours ? 'Découvrir' : 'A venir'}
               </button>
             </div>
           ))}

@@ -66,10 +66,38 @@
       background-color: $color;
       border-radius: 0.8rem;
       transition: 0.5s ease-in-out;
-      //flex: 1;
-      //&:hover{
-      //  flex: 3;
-      //  cursor:pointer;
-      //}
+      flex:1;
+      &:hover{
+        flex: 3;
+        cursor:pointer;
+      }
     }
+}
+
+@media (max-width:1200px){
+  .projects {
+    padding: 1rem 3% 1rem 3%;
+  }
+}
+
+@media (max-width:768px){
+  .projects{
+  padding: 2rem 2% 2rem;
+
+  }
+}
+
+@media (max-width:425px){
+
+  .projects{
+    &__title{
+      font-size: 4rem;
+    }
+    &__gallery{
+      flex-direction: column;
+    }
+    &__card-container{
+      flex:1;
+    }
+  }
 }
