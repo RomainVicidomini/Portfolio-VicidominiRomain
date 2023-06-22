@@ -122,8 +122,7 @@ function About() {
             Jeune français avec cinq années d&apos;expérience dans le domaine de
             l&apos;informatique industrielle et une formation approfondie en
             tant que développeur fullstack JavaScript, je suis enthousiaste à
-            l&apos;idée de mettre à profit mes compétences dans la construction
-            de sites web et web mobiles répondant aux attentes des clients.
+            l&apos;idée de mettre à profit mes compétences.
           </p>
           <p>
             Actuellement, je suis sur le point de terminer ma formation de
