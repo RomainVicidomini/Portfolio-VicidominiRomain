@@ -107,8 +107,8 @@ function About() {
         <img className="about__img" src={photo} alt="profil" />
         <p className="about__text-2" id="about-text" ref={aboutRef2}>
           Après 5 années dans l’informatique industrielle et une formation
-          développeur fullstack javascript, je souhaite mobilisé mes
-          connaissances dans la constructions de sites web et web mobile
+          développeur fullstack javascript, je souhaite mobiliser mes
+          connaissances dans la construction de sites web et web mobile
           repondant aux attentes des clients.
         </p>
 
